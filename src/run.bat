@@ -1,0 +1,1 @@
+g++ -o test.exe -I . -I ./algorithm *.cpp algorithm/*.cpp
