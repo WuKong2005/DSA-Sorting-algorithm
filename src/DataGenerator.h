@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <time.h>
+#include <cstdlib>
 
 enum DATA_ORDER {
     RANDOM_DATA,
