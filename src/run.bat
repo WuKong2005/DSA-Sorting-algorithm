@@ -1,1 +1,1 @@
-g++ -o test.exe -I . -I ./algorithm *.cpp algorithm/*.cpp
+g++ -o sortingAlgorithm.exe -I . -I ./algorithm *.cpp algorithm/*.cpp

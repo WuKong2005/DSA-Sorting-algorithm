@@ -3,7 +3,7 @@
 #include "sortExecute.h"
 #include "utility.h"
 
-const bool debug = true;
+const bool debug = false;
 const bool writingToFile = true;
 const int typeMeasure = 3;
 
@@ -21,7 +21,7 @@ int main() {
 
     for (int inputOrderID = 0; inputOrderID < NUMBER_DATA_ORDER; inputOrderID++) {
         for (int inputSizeID = 0; inputSizeID < NUMBER_DATA_TEST; inputSizeID++) {
-            int n = DATA_SIZE[inputSizeID] / (debug ? 1000 : 1);
+            int n = DATA_SIZE[inputSizeID] / (debug ? 100 : 1);
             int* arr = new int[n];
             int* tmp = new int[n];
             result test;
@@ -30,7 +30,7 @@ int main() {
             if (writingToFile) {
                 fout << "Input size : " << n << '\n';
                 fout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
-                fout << "-----------------------------------\n";
+                fout << '\n';
             }
 
             for (int algorithmID = 0; algorithmID < NUMBER_SORT_ALGORITHM; algorithmID++) {
