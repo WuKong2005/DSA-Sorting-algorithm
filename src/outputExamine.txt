@@ -1,0 +1,1128 @@
+Input size : 10
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.001
+Comparisons : 109
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 28
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.001
+Comparisons : 105
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 19
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 73
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.001
+Comparisons : 146
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.004
+Comparisons : 120
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.001
+Comparisons : 163
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 63
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.001
+Comparisons : 65
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.001
+Comparisons : 121
+-----------------------------------
+Input size : 30
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.002
+Comparisons : 929
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 88
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.001
+Comparisons : 925
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 59
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 291
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.002
+Comparisons : 715
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.005
+Comparisons : 484
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.001
+Comparisons : 1103
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 183
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.002
+Comparisons : 269
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.001
+Comparisons : 333
+-----------------------------------
+Input size : 50
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.003
+Comparisons : 2549
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 148
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.004
+Comparisons : 2545
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 99
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 620
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.004
+Comparisons : 1393
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.008
+Comparisons : 902
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.004
+Comparisons : 2843
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 302
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.003
+Comparisons : 429
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.002
+Comparisons : 572
+-----------------------------------
+Input size : 100
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.011
+Comparisons : 10099
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 298
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.012
+Comparisons : 10095
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 199
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 1522
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.008
+Comparisons : 3288
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.016
+Comparisons : 2057
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.013
+Comparisons : 10693
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.002
+Comparisons : 603
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.004
+Comparisons : 829
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.004
+Comparisons : 1146
+-----------------------------------
+Input size : 300
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.083
+Comparisons : 90299
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 898
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.093
+Comparisons : 90295
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 599
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.006
+Comparisons : 6329
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.026
+Comparisons : 12340
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.045
+Comparisons : 7353
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.103
+Comparisons : 92093
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.004
+Comparisons : 1802
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.013
+Comparisons : 3343
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.011
+Comparisons : 3436
+-----------------------------------
+Input size : 500
+Input order: Random data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.23
+Comparisons : 250499
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 1498
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.253
+Comparisons : 250495
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.002
+Comparisons : 999
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.009
+Comparisons : 10535
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.047
+Comparisons : 22210
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.077
+Comparisons : 13189
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.263
+Comparisons : 253493
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.007
+Comparisons : 3003
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.021
+Comparisons : 5543
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.017
+Comparisons : 5755
+-----------------------------------
+Input size : 10
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.001
+Comparisons : 109
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 28
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0
+Comparisons : 105
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 19
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 73
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.001
+Comparisons : 162
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.002
+Comparisons : 120
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0
+Comparisons : 163
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0
+Comparisons : 63
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0
+Comparisons : 65
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.001
+Comparisons : 121
+-----------------------------------
+Input size : 30
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.001
+Comparisons : 929
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 88
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.001
+Comparisons : 925
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 59
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 291
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.002
+Comparisons : 710
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.004
+Comparisons : 484
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.003
+Comparisons : 1103
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 183
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.001
+Comparisons : 269
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.001
+Comparisons : 357
+-----------------------------------
+Input size : 50
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.002
+Comparisons : 2549
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 148
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.003
+Comparisons : 2545
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 99
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 620
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.004
+Comparisons : 1395
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.008
+Comparisons : 902
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.004
+Comparisons : 2843
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 303
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.003
+Comparisons : 429
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.002
+Comparisons : 595
+-----------------------------------
+Input size : 100
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.01
+Comparisons : 10099
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 298
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.011
+Comparisons : 10095
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 199
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 1522
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.008
+Comparisons : 3302
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.016
+Comparisons : 2057
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.012
+Comparisons : 10693
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 603
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.004
+Comparisons : 829
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.003
+Comparisons : 1189
+-----------------------------------
+Input size : 300
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.084
+Comparisons : 90299
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 898
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.093
+Comparisons : 90295
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 599
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.005
+Comparisons : 6329
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.029
+Comparisons : 12363
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.045
+Comparisons : 7353
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.096
+Comparisons : 92093
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.004
+Comparisons : 1803
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.013
+Comparisons : 3343
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.008
+Comparisons : 3561
+-----------------------------------
+Input size : 500
+Input order: Nearly sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.266
+Comparisons : 250499
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 1498
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.298
+Comparisons : 250495
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.002
+Comparisons : 999
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.009
+Comparisons : 10535
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.045
+Comparisons : 22319
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.112
+Comparisons : 13189
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.268
+Comparisons : 253493
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.006
+Comparisons : 3003
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.021
+Comparisons : 5543
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.012
+Comparisons : 5933
+-----------------------------------
+Input size : 10
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0
+Comparisons : 109
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 28
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0
+Comparisons : 105
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 19
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 73
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.001
+Comparisons : 162
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.002
+Comparisons : 120
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0
+Comparisons : 163
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0
+Comparisons : 63
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.001
+Comparisons : 65
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0
+Comparisons : 121
+-----------------------------------
+Input size : 30
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.001
+Comparisons : 929
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 88
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.002
+Comparisons : 925
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 59
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 291
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.002
+Comparisons : 710
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.004
+Comparisons : 484
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.002
+Comparisons : 1103
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 183
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.002
+Comparisons : 269
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.002
+Comparisons : 357
+-----------------------------------
+Input size : 50
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.002
+Comparisons : 2549
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 148
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.003
+Comparisons : 2545
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 99
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 620
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.004
+Comparisons : 1395
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.007
+Comparisons : 902
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.003
+Comparisons : 2843
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 303
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.002
+Comparisons : 429
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.002
+Comparisons : 595
+-----------------------------------
+Input size : 100
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.011
+Comparisons : 10099
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 298
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.012
+Comparisons : 10095
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 199
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 1522
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.008
+Comparisons : 3302
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.015
+Comparisons : 2057
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.013
+Comparisons : 10693
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 603
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.003
+Comparisons : 829
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.004
+Comparisons : 1189
+-----------------------------------
+Input size : 300
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.094
+Comparisons : 90299
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 898
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.107
+Comparisons : 90295
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 599
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.006
+Comparisons : 6329
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.028
+Comparisons : 12363
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.048
+Comparisons : 7353
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.111
+Comparisons : 92093
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.004
+Comparisons : 1803
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.014
+Comparisons : 3343
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.008
+Comparisons : 3561
+-----------------------------------
+Input size : 500
+Input order: Sorted data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.256
+Comparisons : 250499
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 1498
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.282
+Comparisons : 250495
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 999
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.01
+Comparisons : 10535
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.05
+Comparisons : 22319
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.084
+Comparisons : 13189
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.301
+Comparisons : 253493
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.008
+Comparisons : 3003
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.024
+Comparisons : 5543
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.013
+Comparisons : 5933
+-----------------------------------
+Input size : 10
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0
+Comparisons : 109
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 28
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0
+Comparisons : 105
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 19
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 73
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.001
+Comparisons : 162
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.002
+Comparisons : 120
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.001
+Comparisons : 163
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 63
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0
+Comparisons : 65
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0
+Comparisons : 121
+-----------------------------------
+Input size : 30
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.001
+Comparisons : 929
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 88
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.001
+Comparisons : 925
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 59
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0
+Comparisons : 291
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.001
+Comparisons : 710
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.004
+Comparisons : 484
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.001
+Comparisons : 1103
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 183
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.002
+Comparisons : 269
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.001
+Comparisons : 357
+-----------------------------------
+Input size : 50
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.002
+Comparisons : 2549
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0
+Comparisons : 148
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.004
+Comparisons : 2545
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0
+Comparisons : 99
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.001
+Comparisons : 620
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.003
+Comparisons : 1395
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.008
+Comparisons : 902
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.004
+Comparisons : 2843
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.001
+Comparisons : 303
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.002
+Comparisons : 429
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.002
+Comparisons : 595
+-----------------------------------
+Input size : 100
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.01
+Comparisons : 10099
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 298
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.012
+Comparisons : 10095
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 199
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.002
+Comparisons : 1522
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.008
+Comparisons : 3302
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.017
+Comparisons : 2057
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.014
+Comparisons : 10693
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.002
+Comparisons : 603
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.004
+Comparisons : 829
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.003
+Comparisons : 1189
+-----------------------------------
+Input size : 300
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.092
+Comparisons : 90299
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 898
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.103
+Comparisons : 90295
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.001
+Comparisons : 599
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.007
+Comparisons : 6329
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.031
+Comparisons : 12363
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.048
+Comparisons : 7353
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.108
+Comparisons : 92093
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.004
+Comparisons : 1803
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.014
+Comparisons : 3343
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.009
+Comparisons : 3561
+-----------------------------------
+Input size : 500
+Input order: Reverse data
+-----------------------------------
+Algorithm: bubble-sort
+Running time: 0.254
+Comparisons : 250499
+-----------------------------------
+Algorithm: insertion-sort
+Running time: 0.001
+Comparisons : 1498
+-----------------------------------
+Algorithm: selection-sort
+Running time: 0.278
+Comparisons : 250495
+-----------------------------------
+Algorithm: shaker-sort
+Running time: 0.002
+Comparisons : 999
+-----------------------------------
+Algorithm: shell-sort
+Running time: 0.011
+Comparisons : 10535
+-----------------------------------
+Algorithm: heap-sort
+Running time: 0.053
+Comparisons : 22319
+-----------------------------------
+Algorithm: merge-sort
+Running time: 0.083
+Comparisons : 13189
+-----------------------------------
+Algorithm: quick-sort
+Running time: 0.293
+Comparisons : 253493
+-----------------------------------
+Algorithm: counting-sort
+Running time: 0.006
+Comparisons : 3003
+-----------------------------------
+Algorithm: radix-sort
+Running time: 0.023
+Comparisons : 5543
+-----------------------------------
+Algorithm: flash-sort
+Running time: 0.013
+Comparisons : 5933
+-----------------------------------

@@ -38,7 +38,7 @@ void heapSort(int* a, int n) {
 
 // ----------------------------------------
 
-void heapify(int* a, int n, int parrent, int& compare) {
+void heapify(int* a, int n, int parrent, long long& compare) {
     int largest = parrent;
     int l = 2 * parrent + 1;
     int r = l + 1;
@@ -54,7 +54,7 @@ void heapify(int* a, int n, int parrent, int& compare) {
     }
 }
 
-void heapSort(int* a, int n, int& compare) {
+void heapSort(int* a, int n, long long& compare) {
     // build max heap
     for (int i = n / 2 - 1; ++compare && i >= 0; --i)
         heapify(a, n, i, compare);

@@ -1,64 +1,118 @@
 #include "flashSort.h"
 
-void flashSort(int arr[], int n, long long &comparison) {
+int getIndex(int m, int minValue, int maxValue, int val) {
+    return 1ll * (m - 1) * (val - minValue) / (maxValue - minValue);
 }
 
 void flashSort(int arr[], int n) {
-    int minValue = *std::min_element(arr, arr + n), maxValue = *std::max_element(arr, arr + n);
+    if (n <= 1) return;
+    int m = n * 0.43;
+    if (m <= 2) m = 2;
 
-    if (minValue == maxValue) {
-        return;
-    }
-
-    int m = std::max(2, (int)(n * 0.45));
     int* L = new int[m]{};
 
-    for (int i = 0; i < n; i++) {
-        int k = 1LL * (arr[i] - minValue) * (m - 1) / (maxValue - minValue);
-        ++L[k];
+    int minValue = *std::min_element(arr, arr + n), maxValue = *std::max_element(arr, arr + n);
+    if (maxValue == minValue)
+        return;
+
+    #define getK(x) 1ll * (m - 1) * (x - minValue) / (maxValue - minValue)
+
+    for (int i = 0; i < n; ++i) {
+        ++L[getK(arr[i])];
+    }
+    for (int i = 1; i < m; ++i) {
+        L[i] += L[i - 1];
     }
 
-    for (int k = 1; k < m; ++k) {
-        L[k] += L[k - 1];
-    }
-
-    int i = 0;
+    //step 2
     int count = 0;
-    int curk = m - 1;
+    int i = 0;
     while (count < n) {
-        while (i >= L[curk]) {
-            ++i;
-            curk = 1LL * (arr[i] - minValue) * (m - 1) / (maxValue - minValue);
+        int k = getK(arr[i]);
+        while (i >= L[k]) {
+            k = getK(arr[++i]);
         }
-
-        int flash = arr[i];
-        while(i != L[curk]) {
-            curk = 1LL * (arr[i] - minValue) * (m - 1) / (maxValue - minValue);
-
-            std::swap(arr[L[curk] - 1], flash);
-            --L[curk];
+        int z = arr[i];
+        while (i != L[k]) {
+            k = getK(z);
+            int y = arr[L[k] - 1];
+            arr[--L[k]] = z;
+            z = y;
             ++count;
         }
-    }
+    }   
 
-    std::cout << "done this step\n";
-    for (int k = 0; k < m; k++) {
-        std::cout << L[k] << " \n"[k == m - 1];
-    }
-
-    for (int k = 1; k < m; k++) {
-        for (int i = L[k - 1] + 1; i < L[k]; i++) {
-            int selected = arr[i];
-            int pos = i - 1;
-
-            while (pos > i && arr[pos] > selected) {
-                arr[pos + 1] = arr[pos];
-                --pos;
+    //step 3
+    for (int k = 1; k < m; ++k) {
+        for (int i = L[k] - 2; i >= L[k - 1]; --i) {
+            if (arr[i] > arr[i + 1]) {
+                int t = arr[i], j = i;
+                while (t > arr[j + 1]) {
+                    arr[j] = arr[j + 1]; 
+                    ++j;
+                }
+                arr[j] = t;
             }
-            
-            arr[pos + 1] = selected;
-        }
+        } 
     }
 
     delete [] L;
+    return;
+}
+
+void flashSort(int arr[], int n, long long &comparison) {
+    if (++comparison && n <= 1) return;
+    int m = n * 0.43;
+    if (++comparison && m <= 2) m = 2;
+
+    int* L = new int[m]{};
+
+    int minValue = *std::min_element(arr, arr + n), maxValue = *std::max_element(arr, arr + n);
+    comparison += (n * 2 + (n == 0)) * 2;
+    if (++comparison && maxValue == minValue)
+        return;
+
+    #define getK(x) 1ll * (m - 1) * (x - minValue) / (maxValue - minValue)
+
+    for (int i = 0; ++comparison && i < n; ++i) {
+        ++L[getK(arr[i])];
+    }
+    for (int i = 1; ++comparison && i < m; ++i) {
+        L[i] += L[i - 1];
+    }
+
+    //step 2
+    int count = 0;
+    int i = 0;
+    while (++comparison && count < n) {
+        int k = getK(arr[i]);
+        while (++comparison && i >= L[k]) {
+            k = getK(arr[++i]);
+        }
+        int z = arr[i];
+        while (++comparison && i != L[k]) {
+            k = getK(z);
+            int y = arr[L[k] - 1];
+            arr[--L[k]] = z;
+            z = y;
+            ++count;
+        }
+    }   
+
+    //step 3
+    for (int k = 1; ++comparison && k < m; ++k) {
+        for (int i = L[k] - 2; ++comparison && i >= L[k - 1]; --i) {
+            if (++comparison && arr[i] > arr[i + 1]) {
+                int t = arr[i], j = i;
+                while (++comparison && t > arr[j + 1]) {
+                    arr[j] = arr[j + 1]; 
+                    ++j;
+                }
+                arr[j] = t;
+            }
+        } 
+    }
+
+    delete [] L;
+    return;
 }

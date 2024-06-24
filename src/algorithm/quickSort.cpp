@@ -41,7 +41,7 @@ void quickSort(int* a, int n) {
 
 // --------------------------------------------
 
-int partition(int* a, int l, int r, int& compare) {
+int partition(int* a, int l, int r, long long& compare) {
     int p = r; 
     --r;
     while (++compare && l <= r) {
@@ -58,7 +58,7 @@ int partition(int* a, int l, int r, int& compare) {
     return l;
 }
 
-void quickSort(int* a, int n, int& compare) {
+void quickSort(int* a, int n, long long& compare) {
     if (++compare && n <= 1)
         return;
     int mid = partition(a, 0, n - 1, compare);

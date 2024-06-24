@@ -7,7 +7,7 @@ void selectionSort(int a[], int n) {
             if (a[j] < a[min]) 
                 min = j;
         }
-        swap(a[i], a[min]);
+        std::swap(a[i], a[min]);
     }
 }
 
@@ -18,6 +18,6 @@ void selectionSort(int a[], int n, long long &comparison) {
             if (++comparison && (a[j] < a[min])) 
                 min = j;
         }
-        swap(a[i], a[min]);
+        std::swap(a[i], a[min]);
     }
 }

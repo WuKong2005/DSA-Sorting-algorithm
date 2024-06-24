@@ -46,7 +46,7 @@ void mergeSort(int* a, int n) {
 
 // ---------------------------------------------------
 
-void merge(int* a, int l, int m, int r, int& compare) {
+void merge(int* a, int l, int m, int r, long long& compare) {
     int* L = new int [m - l + 1];
     int* R = new int [r - m + 1];
     L[m - l] = R[r - m] = INT_MAX;
@@ -68,7 +68,7 @@ void merge(int* a, int l, int m, int r, int& compare) {
     delete [] R;
 }
 
-void mergeSort(int* a, int n, int& compare) {
+void mergeSort(int* a, int n, long long& compare) {
     if (++compare && n < 2)
         return;
     int mid = n / 2;
