@@ -4,8 +4,7 @@ int isValidNumber(std::string str) {
     return !str.empty() && std::all_of(str.begin(), str.end(), [](char d) { return (int)d >= (int)'0' && (int)d <= (int)'9'; });
 }
 
-int getInputOrder(std::string flag)
-{
+int getInputOrder(std::string flag) {
     if (flag == "-rand")    return DATA_ORDER::RANDOM_DATA;
     if (flag == "-nsorted") return DATA_ORDER::NEARLY_SORTED_DATA;
     if (flag == "-sorted")  return DATA_ORDER::SORTED_DATA;

@@ -6,6 +6,8 @@
 const bool debug = false;
 const bool writingToFile = true;
 const int typeMeasure = 3;
+// Bit thu 0: bit co do thoi gian chay hay ko
+// Bit thu 1: bit co do so lan so sanh hay ko
 
 const int NUMBER_DATA_TEST = 6;
 int const DATA_SIZE[] = {10000, 30000, 50000, 100000, 300000, 500000};

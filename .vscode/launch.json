@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "C:/Users/Asus/Desktop/DSA-Sorting-algorithm/src/sortingAlgorithm.exe",
-            "args": ["-c", "heap-sort", "merge-sort", "500000", "-both"],
+            "args": ["-c", "heap-sort", "bubble-sort", "10000", "-rand"],
             "stopAtEntry": false,
             "cwd": "C:/Users/Asus/Desktop/DSA-Sorting-algorithm/src",
             "environment": [],

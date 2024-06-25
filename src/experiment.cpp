@@ -133,7 +133,7 @@ void experiment::comparisonMode() {
 void experiment::printResult() {
     std::cout << "Input file : " << inpPath << '\n';
     std::cout << "Input size : " << inputSize << '\n';
-    if (inputOrder != 4) {
+    if (inputOrder != NUMBER_DATA_ORDER) {
         std::cout << "Input order: " << getInputOrderName(inputOrder) << '\n';
     }
     std::cout << "-----------------------------------\n";
