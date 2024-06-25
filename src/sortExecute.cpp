@@ -50,7 +50,7 @@ std::string executeSort::getAlgorithmName(int algorithmID) {
     return algorithmName[algorithmID];
 }
 
-void executeSort::sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::milli> &timeElapsed) {
+void executeSort::sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::micro> &timeElapsed) {
     if (algorithmID == NUMBER_SORT_ALGORITHM) {
         return;
     }

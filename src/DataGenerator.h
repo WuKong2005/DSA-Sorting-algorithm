@@ -3,6 +3,7 @@
 #include <cmath>
 #include <time.h>
 #include <cstdlib>
+#include <algorithm>
 
 int const NUMBER_DATA_ORDER = 4;
 
