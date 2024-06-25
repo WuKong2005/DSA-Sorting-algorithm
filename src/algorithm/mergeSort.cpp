@@ -53,7 +53,7 @@ void merge(int* a, int l, int m, int r, long long& compare) {
 
     for (int i = 0; ++compare && i < m - l; ++i)
         L[i] = a[i];
-    for (int i = 0; i < r - m; ++i)
+    for (int i = 0; ++compare && i < r - m; ++i)
         R[i] = a[m + i];
 
     int i = 0, j = 0;
