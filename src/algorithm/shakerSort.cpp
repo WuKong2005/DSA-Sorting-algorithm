@@ -24,10 +24,10 @@ void shakerSort(int a[], int n)
         // Reduce the end index because the last element is now in the correct position
         end--;
         // Traverse the array from right to left, same as the bubble sort
-        for (int i = end; i > start; i--)
-            if (a[i] < a[i - 1])
+        for (int i = end - 1; i >= start; i--)
+            if (a[i] > a[i + 1])
             {
-                std::swap(a[i], a[i - 1]);
+                std::swap(a[i], a[i + 1]);
                 swapped = true;
             }
         // Increase start index because the first element is now in the correct position
@@ -61,10 +61,10 @@ void shakerSort(int a[], int n, long long &comparisons)
         // Reduce the end index because the last element is now in the correct position
         end--;
         // Traverse the array from right to left, same as the bubble sort
-        for (int i = end; ++comparisons && (i > start); i--)
-            if (++comparisons && (a[i] < a[i - 1]))
+        for (int i = end - 1; ++comparisons && (i >= start); i--)
+            if (++comparisons && (a[i] > a[i + 1]))
             {
-                std::swap(a[i], a[i - 1]);
+                std::swap(a[i], a[i + 1]);
                 swapped = true;
             }
         // Increase start index because the first element is now in the correct position
