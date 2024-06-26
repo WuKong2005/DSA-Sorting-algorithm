@@ -2,27 +2,29 @@
 #include "DataGenerator.h"
 #include "sortExecute.h"
 #include "utility.h"
+#include <cstring>
+#include <iomanip>
 
 const bool debug = false;
 const bool writingToFile = true;
 const int typeMeasure = 3;
-// Bit thu 0: bit co do thoi gian chay hay ko
-// Bit thu 1: bit co do so lan so sanh hay ko
 
 const int NUMBER_DATA_TEST = 6;
 int const DATA_SIZE[] = {10000, 30000, 50000, 100000, 300000, 500000};
 
 struct result {
     long long comparison{};
-    std::chrono::duration<double, std::milli> timeElapsed{};
+    std::chrono::duration<double, std::micro> timeElapsed{};
 };
 
 int main() {
-    std::ofstream fout("outputExamine.txt");
+    srand(time(NULL));
+    // std::ofstream fout("outputExamine.txt");
+    std::ofstream fout("outputReverseC.csv",std::ios::app);
     executeSort sortAlgo;
 
-    for (int inputOrderID = 0; inputOrderID < NUMBER_DATA_ORDER; inputOrderID++) {
-        for (int inputSizeID = 0; inputSizeID < NUMBER_DATA_TEST; inputSizeID++) {
+    for (int inputOrderID = 3; inputOrderID < NUMBER_DATA_ORDER; inputOrderID++) {
+        for (int inputSizeID = 0; inputSizeID < NUMBER_DATA_TEST-3; inputSizeID++) {
             int n = DATA_SIZE[inputSizeID] / (debug ? 100 : 1);
             int* arr = new int[n];
             int* tmp = new int[n];
@@ -30,32 +32,38 @@ int main() {
             GenerateData(arr, n, inputOrderID);
 
             if (writingToFile) {
-                fout << "Input size : " << n << '\n';
-                fout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
-                fout << '\n';
+                fout << "\nInput size : " << n << ";\n";
+                // fout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
+                // fout << ";\n";
             }
-
-            for (int algorithmID = 0; algorithmID < NUMBER_SORT_ALGORITHM; algorithmID++) {
+            for (int algorithmID = 0; algorithmID < 11; algorithmID++) {
+                // memcpy(tmp, arr, n * sizeof(int));
+                // sortAlgo.sort(tmp, n, algorithmID, test.timeElapsed);
+                
                 memcpy(tmp, arr, n * sizeof(int));
-                sortAlgo.sort(arr, n, algorithmID, test.comparison);
-
-                memcpy(tmp, arr, n * sizeof(int));
-                sortAlgo.sort(arr, n, algorithmID, test.timeElapsed);
-
+                sortAlgo.sort(tmp, n, algorithmID, test.comparison);
+                std::cout << sortAlgo.getAlgorithmName(algorithmID) << "\n";
                 if (writingToFile) {
-                    fout << "Algorithm: " << sortAlgo.getAlgorithmName(algorithmID) << '\n';
-                    if (typeMeasure & 1) {
-                        fout << "Running time: " << test.timeElapsed.count() << '\n';
-                    }
-                    if (typeMeasure & 2) {
-                        fout << "Comparisons : " << test.comparison << '\n';
-                    }
-                    fout << "-----------------------------------\n";
+                    fout << sortAlgo.getAlgorithmName(algorithmID) << ";";
+                    fout << std::setprecision(12) << test.comparison << ";\n";
+                    // fout << "Algorithm: " << sortAlgo.getAlgorithmName(algorithmID) << '\n';
+                    // if (typeMeasure & 1) {
+                    //     fout << "Running time: " << test.timeElapsed.count() << '\n';
+                    // }
+                    // if (typeMeasure & 2) {
+                    //     fout << "Comparisons : " << test.comparison << '\n';
+                    // }
+                    // fout << "-----------------------------------\n";
+                // }
                 }
             }
-
+            std::cout << "\n";
+            fout << ";\n";
             delete [] arr;
             delete [] tmp;
         }
+        fout << ";\n";
     }
+    fout.close();
+    return 0;
 }

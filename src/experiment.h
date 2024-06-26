@@ -7,7 +7,7 @@
 
 struct result {
     long long comparison{};
-    std::chrono::duration<double, std::milli> timeElapsed{};
+    std::chrono::duration<double, std::micro> timeElapsed{};
 };
 
 struct experiment {
