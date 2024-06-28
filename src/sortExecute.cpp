@@ -59,6 +59,8 @@ void executeSort::sort(int arr[], int n, int algorithmID, std::chrono::duration<
     pSort[algorithmID](arr, n);
     const auto timeEnd   = std::chrono::steady_clock::now();
     timeElapsed = timeEnd - timeStart;
+
+    assert(std::is_sorted(arr, arr + n));
 }
 
 void executeSort::sort(int arr[], int n, int algorithmID, long long &comparison) {
@@ -68,4 +70,6 @@ void executeSort::sort(int arr[], int n, int algorithmID, long long &comparison)
     
     comparison = 0;
     pSortWithComparison[algorithmID](arr, n, comparison);
+
+    assert(std::is_sorted(arr, arr + n));
 }

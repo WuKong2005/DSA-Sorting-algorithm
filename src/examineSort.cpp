@@ -2,11 +2,12 @@
 #include "DataGenerator.h"
 #include "sortExecute.h"
 #include "utility.h"
-#include <cstring>
 
-const bool debug = true;
+const bool debug = false;
 const bool writingToFile = true;
 const int typeMeasure = 3;
+// Bit thu 0: bit co do thoi gian chay hay ko
+// Bit thu 1: bit co do so lan so sanh hay ko
 
 const int NUMBER_DATA_TEST = 6;
 int const DATA_SIZE[] = {10000, 30000, 50000, 100000, 300000, 500000};
@@ -17,7 +18,6 @@ struct result {
 };
 
 int main() {
-    srand(time(NULL));
     std::ofstream fout("outputExamine.txt");
     executeSort sortAlgo;
 
@@ -30,16 +30,18 @@ int main() {
             GenerateData(arr, n, inputOrderID);
 
             if (writingToFile) {
-                fout << "Input size : " << n << "\n";
+                fout << "Input size : " << n << '\n';
                 fout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
                 fout << '\n';
             }
+
             for (int algorithmID = 0; algorithmID < NUMBER_SORT_ALGORITHM; algorithmID++) {
+                memcpy(tmp, arr, n * sizeof(int));
+                sortAlgo.sort(tmp, n, algorithmID, test.comparison);
+
                 memcpy(tmp, arr, n * sizeof(int));
                 sortAlgo.sort(tmp, n, algorithmID, test.timeElapsed);
 
-                memcpy(tmp, arr, n * sizeof(int));
-                sortAlgo.sort(tmp, n, algorithmID, test.comparison);
                 if (writingToFile) {
                     fout << "Algorithm: " << sortAlgo.getAlgorithmName(algorithmID) << '\n';
                     if (typeMeasure & 1) {
@@ -51,12 +53,11 @@ int main() {
                     fout << "-----------------------------------\n";
                 }
             }
-            fout << "\n";
+
             delete [] arr;
             delete [] tmp;
         }
     }
 
     fout.close();
-    return 0;
 }

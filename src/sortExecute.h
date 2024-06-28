@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <string>
 #include <chrono>
+#include <assert.h>
 
 #include "algorithm/bubbleSort.h"
 #include "algorithm/countingSort.h"
