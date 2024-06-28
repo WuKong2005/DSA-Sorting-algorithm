@@ -1,19 +1,5 @@
 #include <quickSort.h>
 
-// Choose an pivot and partition the array into two parts (elements that smaller than and greater than or equal to pivot). Put the pivot
-//  to the correct possition and recursively sort the 2 parts.
-
-// TIME COMPLEXITY:
-// --- In function partition, l and r go through the size of array ~~~ n
-// --- BEST CASE (each time seperate the array into two equal parts): T(n) = n + 2.T(n / 2) ---> T(n) ~~~ O(n.log(n))
-// --- WORST CASE (each time the pivot is the greatest/smallest element): T(n) = n + T(n - 1) ---> T(n) ~~~ O(n^2)
-// --- AVERAGE CASE: T(n) = T(n - k) + T(k) + n, for k = 1 -> n - 1 ----> T(n) = (sigma(T(n-k)) + sigma(T(k)))/n + n = 2.sigma(T(k))/n+n
-//     ---> n.T(n) - n^2 = 2sigma(T(k)) = 2.T(n - 1) + (n - 1).T(n - 1) - (n - 1)^2
-//     ---> T(n)/(n + 1) = T(n - 1)/n - (2n - 1)/(n(n+1)) ----> T(n) ~~~ n.log(n)
-
-// ---> BEST - AVERAGE - WORST CASE: O(n.log(n)) - O(n.log(n)) - O(n^2)
-// non-stable, in-place, adaptive
-
 int partition(int* a, int l, int r) {
     int p = l + rand() % (r + 1);
     std::swap(a[p], a[r]);
@@ -40,8 +26,6 @@ void quickSort(int* a, int n) {
     quickSort(a, mid);
     quickSort(a + mid + 1, n - mid - 1);
 }
-
-// --------------------------------------------
 
 int partition(int* a, int l, int r, long long& compare) {
     int p = l + rand() % (r + 1);
