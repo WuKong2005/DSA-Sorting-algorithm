@@ -16,9 +16,12 @@
 #include "algorithm/shakerSort.h"
 #include "algorithm/shellSort.h"
 
+// Define the number of sorting algorithms
 int const NUMBER_SORT_ALGORITHM = 11;
 
-enum ALGORITHM_ID {
+// Enum to represent sorting algorithm IDs
+enum ALGORITHM_ID
+{
     BUBBLE_SORT,
     INSERTION_SORT,
     SELECTION_SORT,
@@ -32,7 +35,9 @@ enum ALGORITHM_ID {
     FLASH_SORT
 };
 
-struct executeSort {
+// Struct to hold sorting function pointers and their corresponding names
+struct executeSort
+{
     std::string algorithmName[NUMBER_SORT_ALGORITHM];
     void (*pSort[NUMBER_SORT_ALGORITHM])(int arr[], int n);
     void (*pSortWithComparison[NUMBER_SORT_ALGORITHM])(int arr[], int n, long long &comparison);

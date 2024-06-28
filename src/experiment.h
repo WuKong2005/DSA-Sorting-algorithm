@@ -5,11 +5,13 @@
 #include "sortExecute.h"
 #include "utility.h"
 
+// Struct to hold the results of sorting, including comparison count and time elapsed
 struct result {
     long long comparison{};
     std::chrono::duration<double, std::micro> timeElapsed{};
 };
 
+// Struct to manage sorting experiments
 struct experiment {
     std::string inpPath;
     std::string outPath;

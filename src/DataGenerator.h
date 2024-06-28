@@ -7,7 +7,8 @@
 
 int const NUMBER_DATA_ORDER = 4;
 
-enum DATA_ORDER {
+enum DATA_ORDER
+{
     RANDOM_DATA,
     NEARLY_SORTED_DATA,
     SORTED_DATA,

@@ -45,11 +45,9 @@ void heapify(int* a, int n, int parrent, long long& comparisons) {
 }
 
 void heapSort(int* a, int n, long long& comparisons) {
-    // build max heap
     for (int i = n / 2 - 1; ++comparisons && i >= 0; --i)
         heapify(a, n, i, comparisons);
 
-    // sequently get the maximum element to the end of array and re-heapify the rest of array
     for (int i = 0; ++comparisons && i < n - 1; ++i) {
         std::swap(a[0], a[n - i - 1]);
         heapify(a, n - i - 1, 0, comparisons);
