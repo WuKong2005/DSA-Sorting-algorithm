@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstring>
+#include <iomanip>
 #include "DataGenerator.h"
 #include "sortExecute.h"
 #include "utility.h"

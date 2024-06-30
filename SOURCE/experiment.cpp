@@ -174,7 +174,7 @@ void experiment::printResult()
         std::cout << "-------------------------------------\n";
         if (typeMeasure & 1)
         {
-            std::cout << "Running time: " << listResult[0].timeElapsed.count() << " | " << listResult[1].timeElapsed.count() << '\n';
+            std::cout << "Running time: " << std::setprecision(15) << listResult[0].timeElapsed.count() << " | " << std::setprecision(15) << listResult[1].timeElapsed.count() << '\n';
         }
         if (typeMeasure & 2)
         {
@@ -198,7 +198,7 @@ void experiment::printResult()
                 std::cout << "-----------------------------------\n";
                 if (typeMeasure & 1)
                 {
-                    std::cout << "Running time: " << listResult[inputOrderID].timeElapsed.count() << '\n';
+                    std::cout << "Running time: " << std::setprecision(15) << listResult[inputOrderID].timeElapsed.count() << '\n';
                 }
                 if (typeMeasure & 2)
                 {
@@ -215,7 +215,7 @@ void experiment::printResult()
             std::cout << "-----------------------------------\n";
             if (typeMeasure & 1)
             {
-                std::cout << "Running time: " << listResult[0].timeElapsed.count() << '\n';
+                std::cout << "Running time: " << std::setprecision(15) << listResult[0].timeElapsed.count() << '\n';
             }
             if (typeMeasure & 2)
             {
