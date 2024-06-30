@@ -1,5 +1,6 @@
 #include <fstream>
 #include <cstring>
+#include <iomanip>
 #include "DataGenerator.h"
 #include "sortExecute.h"
 #include "utility.h"
@@ -32,7 +33,7 @@ int main(int argc, char** argv)
     {
         for (int inputSizeID = 0; inputSizeID < NUMBER_DATA_TEST; inputSizeID++)
         {
-            int n = DATA_SIZE[inputSizeID] / (debug ? 100 : 10);
+            int n = DATA_SIZE[inputSizeID] / (debug ? 100 : 1);
             int *arr = new int[n];
             int *tmp = new int[n];
             result test;
@@ -46,7 +47,7 @@ int main(int argc, char** argv)
                 sortAlgo.sort(tmp, n, algorithmID, test.timeElapsed);
 
                 fout << getInputOrderName(inputOrderID) << ',' << n << "," << sortAlgo.getAlgorithmName(algorithmID) << ',';
-                fout << test.timeElapsed.count() << ',' << test.comparison << '\n';
+                fout << test.timeElapsed.count() << ',' << std::setprecision(15) << test.comparison << '\n';
             }
             delete[] arr;
             delete[] tmp;
