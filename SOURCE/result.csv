@@ -1,0 +1,265 @@
+Input order,Input size,Algorithm,Running time,Comparisons
+Random data,1000,bubble-sort,2275,1000999
+Random data,1000,insertion-sort,636,513543
+Random data,1000,selection-sort,1252,1000999
+Random data,1000,shaker-sort,2149,785241
+Random data,1000,shell-sort,104,37416
+Random data,1000,heap-sort,126,47033
+Random data,1000,merge-sort,212,34924
+Random data,1000,quick-sort,94,25774
+Random data,1000,counting-sort,12,6001
+Random data,1000,radix-sort,45,11043
+Random data,1000,flash-sort,32,9264
+Random data,3000,bubble-sort,19967,9002999
+Random data,3000,insertion-sort,4593,4486136
+Random data,3000,selection-sort,9612,9002999
+Random data,3000,shaker-sort,16909,6793319
+Random data,3000,shell-sort,368,143724
+Random data,3000,heap-sort,388,165677
+Random data,3000,merge-sort,610,119708
+Random data,3000,quick-sort,280,92464
+Random data,3000,counting-sort,33,18003
+Random data,3000,radix-sort,162,42057
+Random data,3000,flash-sort,93,30036
+Random data,5000,bubble-sort,54710,25004999
+Random data,5000,insertion-sort,12796,12347743
+Random data,5000,selection-sort,25420,25004999
+Random data,5000,shaker-sort,47236,18550861
+Random data,5000,shell-sort,717,299923
+Random data,5000,heap-sort,797,294311
+Random data,5000,merge-sort,1013,210420
+Random data,5000,quick-sort,499,167377
+Random data,5000,counting-sort,54,30002
+Random data,5000,radix-sort,266,70057
+Random data,5000,flash-sort,136,47413
+Random data,10000,bubble-sort,246625,100009999
+Random data,10000,insertion-sort,63505,50170585
+Random data,10000,selection-sort,102322,100009999
+Random data,10000,shaker-sort,206380,75857691
+Random data,10000,shell-sort,1456,642383
+Random data,10000,heap-sort,1497,638144
+Random data,10000,merge-sort,2033,450844
+Random data,10000,quick-sort,1052,376526
+Random data,10000,counting-sort,138,60003
+Random data,10000,radix-sort,694,140057
+Random data,10000,flash-sort,342,94699
+Random data,30000,bubble-sort,3.1193e+06,900029999
+Random data,30000,insertion-sort,710385,448597104
+Random data,30000,selection-sort,960833,900029999
+Random data,30000,shaker-sort,2.17055e+06,675134989
+Random data,30000,shell-sort,5221,2330682
+Random data,30000,heap-sort,5722,2149689
+Random data,30000,merge-sort,7024,1491692
+Random data,30000,quick-sort,3984,1181437
+Random data,30000,counting-sort,426,180003
+Random data,30000,radix-sort,2265,510071
+Random data,30000,flash-sort,933,287995
+Random data,50000,bubble-sort,7.81263e+06,2500049999
+Random data,50000,insertion-sort,1.31714e+06,1252602924
+Random data,50000,selection-sort,2.64016e+06,2500049999
+Random data,50000,shaker-sort,7.14801e+06,1877273021
+Random data,50000,shell-sort,11612,4419947
+Random data,50000,heap-sort,13285,3771483
+Random data,50000,merge-sort,15149,2603388
+Random data,50000,quick-sort,7633,2206773
+Random data,50000,counting-sort,958,282770
+Random data,50000,radix-sort,5876,850071
+Random data,50000,flash-sort,2466,466104
+Nearly sorted data,1000,bubble-sort,1123,1000999
+Nearly sorted data,1000,insertion-sort,19,15494
+Nearly sorted data,1000,selection-sort,1219,1000999
+Nearly sorted data,1000,shaker-sort,92,29791
+Nearly sorted data,1000,shell-sort,57,28292
+Nearly sorted data,1000,heap-sort,191,49637
+Nearly sorted data,1000,merge-sort,269,34924
+Nearly sorted data,1000,quick-sort,91,26929
+Nearly sorted data,1000,counting-sort,26,6003
+Nearly sorted data,1000,radix-sort,66,11043
+Nearly sorted data,1000,flash-sort,40,11838
+Nearly sorted data,3000,bubble-sort,10742,9002999
+Nearly sorted data,3000,insertion-sort,59,45302
+Nearly sorted data,3000,selection-sort,10238,9002999
+Nearly sorted data,3000,shaker-sort,155,89791
+Nearly sorted data,3000,shell-sort,159,101684
+Nearly sorted data,3000,heap-sort,377,174523
+Nearly sorted data,3000,merge-sort,501,119708
+Nearly sorted data,3000,quick-sort,184,95272
+Nearly sorted data,3000,counting-sort,51,18003
+Nearly sorted data,3000,radix-sort,190,42057
+Nearly sorted data,3000,flash-sort,80,35560
+Nearly sorted data,5000,bubble-sort,25571,25004999
+Nearly sorted data,5000,insertion-sort,103,90850
+Nearly sorted data,5000,selection-sort,29897,25004999
+Nearly sorted data,5000,shaker-sort,325,169729
+Nearly sorted data,5000,shell-sort,260,186822
+Nearly sorted data,5000,heap-sort,805,309676
+Nearly sorted data,5000,merge-sort,810,210420
+Nearly sorted data,5000,quick-sort,397,170157
+Nearly sorted data,5000,counting-sort,126,30003
+Nearly sorted data,5000,radix-sort,327,70057
+Nearly sorted data,5000,flash-sort,160,59279
+Nearly sorted data,10000,bubble-sort,127547,100009999
+Nearly sorted data,10000,insertion-sort,252,163146
+Nearly sorted data,10000,selection-sort,122971,100009999
+Nearly sorted data,10000,shaker-sort,665,259845
+Nearly sorted data,10000,shell-sort,823,408595
+Nearly sorted data,10000,heap-sort,1982,669688
+Nearly sorted data,10000,merge-sort,2661,450844
+Nearly sorted data,10000,quick-sort,891,345812
+Nearly sorted data,10000,counting-sort,286,60003
+Nearly sorted data,10000,radix-sort,781,140057
+Nearly sorted data,10000,flash-sort,253,118578
+Nearly sorted data,30000,bubble-sort,1.02059e+06,900029999
+Nearly sorted data,30000,insertion-sort,457,430546
+Nearly sorted data,30000,selection-sort,977112,900029999
+Nearly sorted data,30000,shaker-sort,1432,779845
+Nearly sorted data,30000,shell-sort,1458,1310772
+Nearly sorted data,30000,heap-sort,4705,2236448
+Nearly sorted data,30000,merge-sort,4609,1491692
+Nearly sorted data,30000,quick-sort,1762,1212682
+Nearly sorted data,30000,counting-sort,446,180003
+Nearly sorted data,30000,radix-sort,2061,510071
+Nearly sorted data,30000,flash-sort,674,355780
+Nearly sorted data,50000,bubble-sort,2.44922e+06,2500049999
+Nearly sorted data,50000,insertion-sort,733,723406
+Nearly sorted data,50000,selection-sort,2.70002e+06,2500049999
+Nearly sorted data,50000,shaker-sort,2806,1499791
+Nearly sorted data,50000,shell-sort,2788,2302170
+Nearly sorted data,50000,heap-sort,7759,3925091
+Nearly sorted data,50000,merge-sort,8082,2603388
+Nearly sorted data,50000,quick-sort,3088,2201008
+Nearly sorted data,50000,counting-sort,525,300003
+Nearly sorted data,50000,radix-sort,3444,850071
+Nearly sorted data,50000,flash-sort,1184,592978
+Sorted data,1000,bubble-sort,913,1000999
+Sorted data,1000,insertion-sort,3,2998
+Sorted data,1000,selection-sort,1052,1000999
+Sorted data,1000,shaker-sort,3,2001
+Sorted data,1000,shell-sort,21,24037
+Sorted data,1000,heap-sort,101,49708
+Sorted data,1000,merge-sort,137,34924
+Sorted data,1000,quick-sort,49,25455
+Sorted data,1000,counting-sort,20,6003
+Sorted data,1000,radix-sort,45,11043
+Sorted data,1000,flash-sort,23,11863
+Sorted data,3000,bubble-sort,8328,9002999
+Sorted data,3000,insertion-sort,8,8998
+Sorted data,3000,selection-sort,9204,9002999
+Sorted data,3000,shaker-sort,7,6001
+Sorted data,3000,shell-sort,76,90044
+Sorted data,3000,heap-sort,353,174632
+Sorted data,3000,merge-sort,403,119708
+Sorted data,3000,quick-sort,153,93832
+Sorted data,3000,counting-sort,51,18003
+Sorted data,3000,radix-sort,160,42057
+Sorted data,3000,flash-sort,69,35583
+Sorted data,5000,bubble-sort,23492,25004999
+Sorted data,5000,insertion-sort,12,14998
+Sorted data,5000,selection-sort,26464,25004999
+Sorted data,5000,shaker-sort,11,10001
+Sorted data,5000,shell-sort,249,165040
+Sorted data,5000,heap-sort,623,309923
+Sorted data,5000,merge-sort,768,210420
+Sorted data,5000,quick-sort,277,164104
+Sorted data,5000,counting-sort,63,30003
+Sorted data,5000,radix-sort,299,70057
+Sorted data,5000,flash-sort,111,59303
+Sorted data,10000,bubble-sort,96795,100009999
+Sorted data,10000,insertion-sort,25,29998
+Sorted data,10000,selection-sort,103128,100009999
+Sorted data,10000,shaker-sort,21,20001
+Sorted data,10000,shell-sort,307,360042
+Sorted data,10000,heap-sort,1263,670329
+Sorted data,10000,merge-sort,1542,450844
+Sorted data,10000,quick-sort,610,350973
+Sorted data,10000,counting-sort,120,60003
+Sorted data,10000,radix-sort,589,140057
+Sorted data,10000,flash-sort,220,118603
+Sorted data,30000,bubble-sort,860957,900029999
+Sorted data,30000,insertion-sort,73,89998
+Sorted data,30000,selection-sort,1.03247e+06,900029999
+Sorted data,30000,shaker-sort,68,60001
+Sorted data,30000,shell-sort,1095,1170050
+Sorted data,30000,heap-sort,5911,2236648
+Sorted data,30000,merge-sort,5230,1491692
+Sorted data,30000,quick-sort,2237,1188405
+Sorted data,30000,counting-sort,387,180003
+Sorted data,30000,radix-sort,2211,510071
+Sorted data,30000,flash-sort,757,355803
+Sorted data,50000,bubble-sort,2.39172e+06,2500049999
+Sorted data,50000,insertion-sort,123,149998
+Sorted data,50000,selection-sort,2.64993e+06,2500049999
+Sorted data,50000,shaker-sort,103,100001
+Sorted data,50000,shell-sort,1768,2100049
+Sorted data,50000,heap-sort,7943,3925351
+Sorted data,50000,merge-sort,8002,2603388
+Sorted data,50000,quick-sort,3261,2163105
+Sorted data,50000,counting-sort,739,300003
+Sorted data,50000,radix-sort,3761,850071
+Sorted data,50000,flash-sort,1367,593003
+Reverse data,1000,bubble-sort,2921,1000999
+Reverse data,1000,insertion-sort,1202,1000999
+Reverse data,1000,selection-sort,1006,1000999
+Reverse data,1000,shaker-sort,3096,1001001
+Reverse data,1000,shell-sort,40,32447
+Reverse data,1000,heap-sort,107,43914
+Reverse data,1000,merge-sort,154,34924
+Reverse data,1000,quick-sort,55,29041
+Reverse data,1000,counting-sort,13,6003
+Reverse data,1000,radix-sort,47,11043
+Reverse data,1000,flash-sort,27,10361
+Reverse data,3000,bubble-sort,28632,9002999
+Reverse data,3000,insertion-sort,9869,9002999
+Reverse data,3000,selection-sort,10485,9002999
+Reverse data,3000,shaker-sort,40299,9003001
+Reverse data,3000,shell-sort,173,118443
+Reverse data,3000,heap-sort,581,155788
+Reverse data,3000,merge-sort,809,119708
+Reverse data,3000,quick-sort,260,94411
+Reverse data,3000,counting-sort,47,18003
+Reverse data,3000,radix-sort,254,42057
+Reverse data,3000,flash-sort,104,31071
+Reverse data,5000,bubble-sort,63353,25004999
+Reverse data,5000,insertion-sort,26516,25004999
+Reverse data,5000,selection-sort,22634,25004999
+Reverse data,5000,shaker-sort,68644,25005001
+Reverse data,5000,shell-sort,220,217613
+Reverse data,5000,heap-sort,574,278536
+Reverse data,5000,merge-sort,720,210420
+Reverse data,5000,quick-sort,272,172944
+Reverse data,5000,counting-sort,55,30003
+Reverse data,5000,radix-sort,267,70057
+Reverse data,5000,flash-sort,113,51781
+Reverse data,10000,bubble-sort,272124,100009999
+Reverse data,10000,insertion-sort,103515,100009999
+Reverse data,10000,selection-sort,96832,100009999
+Reverse data,10000,shaker-sort,294299,100010001
+Reverse data,10000,shell-sort,495,475175
+Reverse data,10000,heap-sort,1698,606771
+Reverse data,10000,merge-sort,1536,450844
+Reverse data,10000,quick-sort,565,368576
+Reverse data,10000,counting-sort,108,60003
+Reverse data,10000,radix-sort,530,140057
+Reverse data,10000,flash-sort,228,103556
+Reverse data,30000,bubble-sort,2.45703e+06,900029999
+Reverse data,30000,insertion-sort,958644,900029999
+Reverse data,30000,selection-sort,843289,900029999
+Reverse data,30000,shaker-sort,2.64597e+06,900030001
+Reverse data,30000,shell-sort,1798,1554051
+Reverse data,30000,heap-sort,4315,2063324
+Reverse data,30000,merge-sort,4632,1491692
+Reverse data,30000,quick-sort,1806,1182771
+Reverse data,30000,counting-sort,314,180003
+Reverse data,30000,radix-sort,2340,510071
+Reverse data,30000,flash-sort,686,310656
+Reverse data,50000,bubble-sort,6.83088e+06,2500049999
+Reverse data,50000,insertion-sort,2.65671e+06,2500049999
+Reverse data,50000,selection-sort,2.43402e+06,2500049999
+Reverse data,50000,shaker-sort,6.99371e+06,2500050001
+Reverse data,50000,shell-sort,2832,2844628
+Reverse data,50000,heap-sort,6926,3612724
+Reverse data,50000,merge-sort,8063,2603388
+Reverse data,50000,quick-sort,3128,2141035
+Reverse data,50000,counting-sort,525,300003
+Reverse data,50000,radix-sort,3321,850071
+Reverse data,50000,flash-sort,1153,517756

@@ -159,47 +159,68 @@ void experiment::comparisonMode()
 // Function to print the results of the experiment
 void experiment::printResult()
 {
-    std::cout << "Input file : " << inpPath << '\n';
-    std::cout << "Input size : " << inputSize << '\n';
-    if (inputOrder != NUMBER_DATA_ORDER)
-    {
-        std::cout << "Input order: " << getInputOrderName(inputOrder) << '\n';
-    }
-    std::cout << "-----------------------------------\n";
-
-    if (!testAllDataType)
-    {
-        for (int i = 0; i < 2; i++)
+    if (isComparisonMode) {
+        std::cout << "COMPARE MODE\n";
+        std::cout << "Algorithm: " << algoName[0] << " | " << algoName[1] << '\n';
+        if (readInputFromFile) 
         {
-            if (!algoName[i].size())
-                continue;
-            std::cout << "Algorithm: " << algoName[i] << '\n';
-            if (typeMeasure & 1)
-            {
-                std::cout << "Running time: " << listResult[i].timeElapsed.count() << '\n';
-            }
-            if (typeMeasure & 2)
-            {
-                std::cout << "Comparisons : " << listResult[i].comparison << '\n';
-            }
-            std::cout << "-----------------------------------\n";
+            std::cout << "Input file : " << inpPath << '\n';
+        }
+        std::cout << "Input size : " << inputSize << '\n';
+        if (inputOrder != NUMBER_DATA_ORDER)
+        {
+            std::cout << "Input order: " << getInputOrderName(inputOrder) << '\n';
+        }
+        std::cout << "-------------------------------------\n";
+        if (typeMeasure & 1)
+        {
+            std::cout << "Running time: " << listResult[0].timeElapsed.count() << " | " << listResult[1].timeElapsed.count() << '\n';
+        }
+        if (typeMeasure & 2)
+        {
+            std::cout << "Comparisions: " << listResult[0].comparison << " | " << listResult[1].comparison << '\n';
         }
     }
-    else
-    {
-        for (int inputOrderID = 0; inputOrderID < numTest; inputOrderID++)
+    else {
+        std::cout << "ALGORITHM MODE\n";
+        std::cout << "Algorithm: " << algoName[0] << '\n';
+        if (readInputFromFile) 
         {
-            std::cout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
+            std::cout << "Input file : " << inpPath << '\n';
+        }
+        std::cout << "Input size : " << inputSize << '\n';
+
+        if (testAllDataType) {
+            std::cout << '\n';
+            for (int inputOrderID = 0; inputOrderID < numTest; inputOrderID++)
+            {
+                std::cout << "Input order: " << getInputOrderName(inputOrderID) << '\n';
+                std::cout << "-----------------------------------\n";
+                if (typeMeasure & 1)
+                {
+                    std::cout << "Running time: " << listResult[inputOrderID].timeElapsed.count() << '\n';
+                }
+                if (typeMeasure & 2)
+                {
+                    std::cout << "Comparisions: " << listResult[inputOrderID].comparison << '\n';
+                }
+                std::cout << '\n';
+            }
+        }
+        else {
+            if (inputOrder != NUMBER_DATA_ORDER)
+            {
+                std::cout << "Input order: " << getInputOrderName(inputOrder) << '\n';
+            }
             std::cout << "-----------------------------------\n";
             if (typeMeasure & 1)
             {
-                std::cout << "Running time: " << listResult[inputOrderID].timeElapsed.count() << '\n';
+                std::cout << "Running time: " << listResult[0].timeElapsed.count() << '\n';
             }
             if (typeMeasure & 2)
             {
-                std::cout << "Comparisons : " << listResult[inputOrderID].comparison << '\n';
+                std::cout << "Comparisions: " << listResult[0].comparison << '\n';
             }
-            std::cout << '\n';
         }
     }
 }

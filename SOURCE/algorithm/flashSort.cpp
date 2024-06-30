@@ -11,6 +11,7 @@ void flashSort(int arr[], int n) {
 
     int* L = new int[m]{};
 
+    //step 1
     int minValue = *std::min_element(arr, arr + n), maxValue = *std::max_element(arr, arr + n);
     if (maxValue == minValue)
         return;
@@ -67,8 +68,9 @@ void flashSort(int arr[], int n, long long &comparison) {
 
     int* L = new int[m]{};
 
+    //step 1
     int minValue = *std::min_element(arr, arr + n), maxValue = *std::max_element(arr, arr + n);
-    comparison += (n * 2 + (n == 0)) * 2;
+    comparison += (n * 2 + (n == 0)) * 2; // calculated based on the implementation of std::max_element
     if (++comparison && maxValue == minValue)
         return;
 

@@ -31,7 +31,7 @@ void countingSort(int arr[], int n) {
 
 void countingSort(int arr[], int n, long long &comparison) {
     int maxSize = *std::max_element(arr, arr + n);
-    comparison += n * 2 + (n == 0);
+    comparison += n * 2 + (n == 0); // calculated based on the implementation of std::max_element
 
     int* frequent = new int[maxSize + 1]{};
 

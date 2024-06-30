@@ -1,1 +1,0 @@
-g++ -o sortingAlgorithm.exe -I . -I ./algorithm *.cpp algorithm/*.cpp

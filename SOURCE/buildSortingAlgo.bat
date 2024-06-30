@@ -1,0 +1,1 @@
+g++ -o sortingAlgo.exe -I ./algorithm algorithm/*.cpp DataGenerator.cpp experiment.cpp main.cpp sortExecute.cpp utility.cpp 
