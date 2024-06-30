@@ -7,7 +7,7 @@ void merge(int* a, int l, int m, int r) {
     L[m - l] = R[r - m] = INT_MAX;
 
     for (int i = 0; i < m - l; ++i)
-        L[i] = a[i];
+        L[i] = a[l + i];
     for (int i = 0; i < r - m; ++i)
         R[i] = a[m + i];
 
@@ -38,7 +38,7 @@ void merge(int* a, int l, int m, int r, long long& comparisons) {
     L[m - l] = R[r - m] = INT_MAX;
 
     for (int i = 0; ++comparisons && i < m - l; ++i)
-        L[i] = a[i];
+        L[i] = a[l + i];
     for (int i = 0; ++comparisons && i < r - m; ++i)
         R[i] = a[m + i];
 
