@@ -58,7 +58,7 @@ std::string executeSort::getAlgorithmName(int algorithmID)
 }
 
 // Function to sort an array and measure the time taken
-void executeSort::sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::micro> &timeElapsed)
+void executeSort::sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::milli> &timeElapsed)
 {
     if (algorithmID == NUMBER_SORT_ALGORITHM)
     {

@@ -13,7 +13,7 @@ int const DATA_SIZE[] = {10000, 30000, 50000, 100000, 300000, 500000};
 struct result
 {
     long long comparison{};
-    std::chrono::duration<double, std::micro> timeElapsed{};
+    std::chrono::duration<double, std::milli> timeElapsed{};
 };
 
 int main(int argc, char** argv) 

@@ -48,6 +48,6 @@ struct executeSort
 
     int getAlgorithmID(std::string algoName);
     std::string getAlgorithmName(int algorithmID);
-    void sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::micro> &timeElapsed);
+    void sort(int arr[], int n, int algorithmID, std::chrono::duration<double, std::milli> &timeElapsed);
     void sort(int arr[], int n, int algorithmID, long long &comparison);
 };
